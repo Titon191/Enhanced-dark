@@ -1,0 +1,32 @@
+{
+  "name": "enhanced-dark",
+  "displayName": "Enhanced dark",
+  "description": "Stylish dark theme with light, slightly pastel code colors.",
+  "publisher": "Titon",
+  "version": "0.0.2",
+  "icon": "logo-bg.png",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "author": {
+    "name" : "Natan Lipiński",
+    "email": "titondesign.kontakt@gmail.com",
+    "url": "https://titondesign.pl"
+  },
+  "repository": {
+    "url": "git@github.com:Titon191/Enhanced-dark.git",
+    "type": "git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Enhanced Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Enhanced Dark-color-theme.json"
+      }
+    ]
+  }
+}
